@@ -1,0 +1,61 @@
+body {
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+     text-decoration:none;
+     color: blue;
+     font-weight: bold;
+}
+
+a:hover {
+    animation: colorslink 3s infinite alternate;
+    -webkit-animation: colorslink 3s infinite alternate;
+    -o-animation: colorslink 3s infinite alternate;
+    -ms-animation: colorslink 3s infinite alternate;
+    -moz-animation: colorslink 3s infinite alternate;
+}
+
+
+/* Animation */
+@keyframes colorslink {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: Fuchsia;}
+}
+
+@-webkit-keyframes colorslink {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: Fuchsia;}
+}
+
+@-o-keyframes colorslink {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: Fuchsia;}
+}
+
+@-ms-keyframes colorslink {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: Fuchsia;}
+}
+
+@-moz-keyframes colorslink {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: Fuchsia;}
+}
